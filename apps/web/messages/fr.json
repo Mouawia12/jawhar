@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "JAWHAR | Artisanat algérien du désert",
+    "description": "Artisanat algérien et cadeaux qui ont du sens : broderie de Touggourt, vannerie en palme, tableaux de sable. Paiement à la livraison."
+  },
+  "brand": {
+    "name": "JAWHAR",
+    "tagline": "Un artisanat algérien singulier, des cadeaux qui ont du sens.",
+    "message": "Chaque pièce porte la trace d’une histoire."
+  },
+  "nav": {
+    "home": "Accueil",
+    "crafts": "Les savoir-faire",
+    "menu": "Menu",
+    "skip": "Aller au contenu",
+    "switchTo": "العربية",
+    "switchLabel": "التبديل إلى العربية"
+  },
+  "hero": {
+    "title": "Des savoir-faire du désert, façonnés par des mains algériennes",
+    "text": "Nous allons à la rencontre de l’artisanat algérien pour vous proposer des pièces faites main, porteuses de la mémoire d’un lieu et de ceux qui l’habitent.",
+    "primary": "Découvrir les pièces",
+    "secondary": "Connaître les savoir-faire",
+    "pause": "Mettre en pause le défilement des pièces",
+    "play": "Reprendre le défilement des pièces"
+  },
+  "crafts": {
+    "title": "La beauté de l’artisanat algérien",
+    "see": "Voir les pièces",
+    "empty": "Les premières pièces de ce savoir-faire sont en cours de photographie.",
+    "emptyHint": "Suivez-nous pour les découvrir à leur arrivée, ou écrivez-nous sur WhatsApp.",
+    "back": "Tous les savoir-faire"
+  },
+  "artisans": {
+    "title": "Derrière chaque pièce, une histoire",
+    "cta": "Lire son histoire",
+    "pieces": "Ses pièces"
+  },
+  "featured": {
+    "title": "Pièces choisies avec soin"
+  },
+  "philosophy": {
+    "title": "L’artisanat est une mémoire",
+    "text": "Dans chaque point de broderie, chaque tresse de palme, chaque tableau de sable, il y a l’histoire d’une personne et d’un lieu. JAWHAR donne à ces histoires la place d’entrer dans de nouvelles maisons."
+  },
+  "trust": {
+    "title": "Acheter chez JAWHAR",
+    "cod": "Paiement à la livraison",
+    "codText": "Rien à payer d’avance : vous payez à la réception.",
+    "delivery": "{count, plural, =0 {Livraison} one {Livraison dans # wilaya} other {Livraison dans # wilayas}}",
+    "deliveryText": "À domicile ou en stop desk, avec le prix affiché avant de confirmer.",
+    "info": "Des informations claires",
+    "infoText": "Matières, dimensions et lieu de fabrication sur chaque fiche.",
+    "contact": "Un contact direct",
+    "contactText": "Posez vos questions sur WhatsApp, avant ou après la commande."
+  },
+  "social": {
+    "title": "Restez proches de nos histoires",
+    "text": "Les nouvelles pièces et les portraits d’artisans paraissent d’abord ici."
+  },
+  "product": {
+    "availability": {
+      "in_stock": "Disponible",
+      "made_to_order": "Sur commande",
+      "sold_out": "Vendue"
+    },
+    "unique": "Pièce unique",
+    "prep": "{days, plural, one {Prête en # jour} other {Prête en # jours}}",
+    "story": "L’histoire de cette pièce",
+    "details": "Caractéristiques",
+    "materials": "Matières",
+    "dimensions": "Dimensions",
+    "origin": "Fabriquée à",
+    "technique": "Technique",
+    "care": "Entretien",
+    "prepTime": "Délai de fabrication",
+    "prepValue": "{days, plural, one {# jour} other {# jours}}",
+    "artisan": "Artisan",
+    "share": "Partager",
+    "copied": "Lien copié",
+    "shareWhatsapp": "Envoyer sur WhatsApp",
+    "ask": "Poser une question sur WhatsApp",
+    "askMessage": "Bonjour, je souhaite des informations sur : {title}",
+    "soldOut": "Cette pièce est vendue.",
+    "soldOutText": "Chaque pièce faite main est unique, mais nous pouvons vous en proposer une proche.",
+    "photo": "Photo {n}",
+    "video": "Vidéo",
+    "showPhoto": "Afficher la photo {n}",
+    "showVideo": "Afficher la vidéo",
+    "demo": "Démo",
+    "demoText": "Donnée de démonstration pour tester la boutique : ni pièce ni prix réels.",
+    "noPhoto": "Photos en préparation",
+    "photoCredit": "Photo : {credit}"
+  },
+  "order": {
+    "title": "Commander",
+    "subtitle": "Paiement à la livraison. Nous vous appelons pour confirmer avant l’envoi.",
+    "fullName": "Nom complet",
+    "phone": "Téléphone",
+    "phoneHint": "Un mobile algérien sur lequel nous vous appellerons.",
+    "wilaya": "Wilaya",
+    "wilayaPlaceholder": "Choisir la wilaya",
+    "commune": "Commune",
+    "deliveryType": "Mode de livraison",
+    "home": "À domicile",
+    "stopdesk": "Au bureau du transporteur (stop desk)",
+    "noStopdesk": "Pas de bureau dans cette wilaya",
+    "address": "Adresse",
+    "addressHint": "Quartier, rue, ou un repère connu du livreur.",
+    "notes": "Remarques (facultatif)",
+    "quantity": "Quantité",
+    "subtotal": "Pièce",
+    "shipping": "Livraison",
+    "shippingPending": "Affichée après le choix de la wilaya",
+    "total": "À payer à la livraison",
+    "submit": "Confirmer la commande",
+    "submitting": "Envoi de la commande…",
+    "deliveryTime": "Délai de livraison : {time}",
+    "unavailable": "La commande en ligne est indisponible pour le moment. Écrivez-nous sur WhatsApp pour commander cette pièce.",
+    "demoRates": "Les tarifs de livraison actuels sont des tarifs de test.",
+    "whatsappOrder": "Commander sur WhatsApp"
+  },
+  "errors": {
+    "cart_empty": "Choisissez au moins une pièce.",
+    "name_required": "Indiquez votre nom complet.",
+    "name_too_long": "Le nom est trop long.",
+    "phone_invalid": "Indiquez un mobile algérien valide, par ex. 0555 12 34 56.",
+    "wilaya_required": "Choisissez la wilaya.",
+    "wilaya_unavailable": "Nous ne livrons pas encore cette wilaya.",
+    "commune_required": "Indiquez la commune.",
+    "commune_too_long": "Le nom de la commune est trop long.",
+    "delivery_type_required": "Choisissez le mode de livraison.",
+    "address_required": "Indiquez l’adresse de livraison.",
+    "address_too_long": "L’adresse est trop longue.",
+    "notes_too_long": "Les remarques sont trop longues.",
+    "stopdesk_unavailable": "Pas de stop desk dans cette wilaya. Choisissez la livraison à domicile.",
+    "product_sold_out": "Cette pièce vient d’être vendue.",
+    "insufficient_stock": "Quantité indisponible. Réduisez la quantité.",
+    "product_unavailable": "Cette pièce n’est plus en vente.",
+    "too_many_requests": "Trop de commandes en peu de temps. Réessayez dans quelques minutes ou écrivez-nous sur WhatsApp.",
+    "orders_disabled": "Les commandes sont suspendues pour le moment. Écrivez-nous sur WhatsApp.",
+    "network": "Connexion impossible. Vérifiez votre connexion internet puis réessayez.",
+    "generic": "La commande n’a pas été enregistrée. Réessayez ou écrivez-nous sur WhatsApp."
+  },
+  "confirm": {
+    "title": "Votre commande est enregistrée",
+    "text": "Nous vous appelons pour la confirmer, puis nous l’expédions. Vous payez à la livraison.",
+    "number": "Numéro de commande",
+    "keep": "Gardez ce numéro : nous pourrons vous le demander au téléphone.",
+    "summary": "Récapitulatif",
+    "deliveryTo": "Livraison",
+    "status": "Statut",
+    "statuses": {
+      "new": "En attente de l’appel de confirmation",
+      "confirmed": "Confirmée",
+      "shipped": "En route",
+      "delivered": "Livrée",
+      "returned": "Retournée",
+      "cancelled": "Annulée"
+    },
+    "whatsapp": "Nous écrire au sujet de cette commande",
+    "whatsappMessage": "Bonjour, au sujet de ma commande {number}",
+    "back": "Retour à la boutique",
+    "notFoundTitle": "Commande introuvable",
+    "notFoundText": "Vérifiez le lien, ou écrivez-nous sur WhatsApp avec votre numéro de commande.",
+    "demo": "Commande de test : elle ne sera pas expédiée."
+  },
+  "footer": {
+    "about": "JAWHAR est une petite boutique algérienne qui présente l’artisanat traditionnel comme on expose des œuvres : pièce par pièce, chacune avec son histoire.",
+    "crafts": "Savoir-faire",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp",
+    "rights": "© {year} JAWHAR — جوهر"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "Le lien de cette pièce a peut-être changé, ou elle n’est plus présentée.",
+    "cta": "Retour à l’accueil"
+  },
+  "error": {
+    "title": "La page n’a pas pu se charger",
+    "text": "La boutique ne répond pas pour le moment. Réessayez dans un instant.",
+    "retry": "Réessayer"
+  }
+}

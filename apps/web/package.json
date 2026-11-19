@@ -1,0 +1,28 @@
+{
+  "name": "@jawhar/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JAWHAR storefront — consumes the JAWHAR REST API",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3030",
+    "build": "next build",
+    "start": "next start -p 3030",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@jawhar/shared": "workspace:*",
+    "next": "16.4.6",
+    "next-intl": "4.15.1",
+    "react": "19.2.9",
+    "react-dom": "19.2.9"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/node": "22.19.9",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.7.3"
+  }
+}

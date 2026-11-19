@@ -1,0 +1,20 @@
+{
+  "name": "jawhar",
+  "private": true,
+  "description": "JAWHAR | جوهر — Algerian heritage crafts store (API-first monorepo)",
+  "packageManager": "pnpm@11.3.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @jawhar/api --filter @jawhar/web dev",
+    "dev:api": "pnpm --filter @jawhar/api dev",
+    "dev:web": "pnpm --filter @jawhar/web dev",
+    "build": "pnpm --filter @jawhar/api build && pnpm --filter @jawhar/web build",
+    "generate:types": "pnpm --filter @jawhar/api generate:types",
+    "seed": "pnpm --filter @jawhar/api seed",
+    "seed:demo": "pnpm --filter @jawhar/api seed:demo",
+    "demo:clean": "pnpm --filter @jawhar/api demo:clean",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

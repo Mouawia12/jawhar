@@ -1,0 +1,27 @@
+packages:
+  - apps/*
+  - packages/*
+
+# pnpm 11 blocks dependency install scripts unless allowed here.
+allowBuilds:
+  '@parcel/watcher': true
+  '@swc/core': true
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+
+# Slow connections: big tarballs (next, swc) need more than the 60s default.
+fetchTimeout: 1200000
+fetchRetries: 5
+networkConcurrency: 4
+
+# pnpm's supply-chain guard holds back very fresh releases; these are official Payload packages.
+minimumReleaseAgeExclude:
+  - '@payloadcms/db-postgres@3.94.0'
+  - '@payloadcms/drizzle@3.94.0'
+  - '@payloadcms/graphql@3.94.0'
+  - '@payloadcms/next@3.94.0'
+  - '@payloadcms/richtext-lexical@3.94.0'
+  - '@payloadcms/translations@3.94.0'
+  - '@payloadcms/ui@3.94.0'
+  - payload@3.94.0

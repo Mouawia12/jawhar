@@ -1,0 +1,24 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# env — never commit secrets
+.env
+.env.local
+.env.production
+.env.*.local
+
+# uploaded media (lives in the database/object storage, not git)
+apps/api/media/
+
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
+
+# demo photos downloaded by `pnpm seed:demo` (third-party, not committed)
+apps/api/.demo-cache/

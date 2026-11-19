@@ -1,0 +1,42 @@
+{
+  "name": "@jawhar/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JAWHAR API: Payload CMS (admin panel + REST/GraphQL) on Postgres",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev -p 3031",
+    "build": "cross-env NODE_OPTIONS=\"--no-deprecation --max-old-space-size=8000\" next build",
+    "start": "cross-env NODE_OPTIONS=--no-deprecation next start -p 3031",
+    "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
+    "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
+    "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
+    "migrate:create": "cross-env NODE_OPTIONS=--no-deprecation payload migrate:create",
+    "migrate": "cross-env NODE_OPTIONS=--no-deprecation payload migrate",
+    "seed": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/run.ts",
+    "seed:demo": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/demo.ts",
+    "demo:clean": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/demo-clean.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@jawhar/shared": "workspace:*",
+    "@payloadcms/db-postgres": "3.94.0",
+    "@payloadcms/next": "3.94.0",
+    "@payloadcms/richtext-lexical": "3.94.0",
+    "@payloadcms/translations": "3.94.0",
+    "@payloadcms/ui": "3.94.0",
+    "cross-env": "^7.0.3",
+    "graphql": "^16.8.1",
+    "next": "16.4.6",
+    "payload": "3.94.0",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "sharp": "0.35.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.9",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.7.3"
+  }
+}
