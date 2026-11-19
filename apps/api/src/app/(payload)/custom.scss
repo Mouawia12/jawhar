@@ -1,0 +1,43 @@
+// RTL fix for Payload's top bar. The language picker is absolutely positioned at a fixed
+// offset that, in Arabic, lands on top of the header actions instead of the space the bar
+// reserves for it (right after the 25px avatar). The actions' gap is also on the wrong side.
+html[dir='rtl'] {
+  .app-header__localizer.localizer {
+    right: auto;
+    left: calc(var(--gutter-h) + 25px);
+  }
+
+  .app-header__actions-wrapper {
+    margin-right: 0;
+    margin-left: var(--base);
+  }
+}
+
+// Light/dark switch in the admin top bar (components/admin/ThemeToggle.tsx).
+.jawhar-theme-toggle {
+  display: grid;
+  place-items: center;
+  width: calc(var(--base) * 1.6);
+  height: calc(var(--base) * 1.6);
+  padding: 0;
+  border: 1px solid var(--theme-elevation-150);
+  border-radius: 50%;
+  background: var(--theme-elevation-0);
+  color: var(--theme-elevation-800);
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+
+  &:hover {
+    background: var(--theme-elevation-100);
+    border-color: var(--theme-elevation-250);
+    color: var(--theme-text);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--theme-success-500);
+    outline-offset: 2px;
+  }
+}

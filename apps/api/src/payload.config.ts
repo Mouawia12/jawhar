@@ -34,6 +34,11 @@ export default buildConfig({
     user: Users.slug,
     importMap: { baseDir: path.resolve(dirname) },
     meta: { titleSuffix: ' — JAWHAR' },
+    // Follows the device's light/dark setting until the user picks one with the toggle.
+    theme: 'all',
+    components: {
+      actions: ['/components/admin/ThemeToggle#ThemeToggle'],
+    },
   },
   collections: [Products, Categories, Artisans, Orders, Wilayas, Media, Users],
   globals: [Settings],
